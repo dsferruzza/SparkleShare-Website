@@ -31,7 +31,7 @@
           free to modify and redistribute it when you give the recipients the <a href="https://github.com/hbons/SparkleShare/blob/master/LICENSE">same freedoms</a>.</p>
 
           <p>If you'd like to help out: <a href="https://github.com/hbons/SparkleShare/wiki">check out the wiki</a>, <a href="https://github.com/hbons/SparkleShare/wiki">roadmap</a>, and 
-          <a href="">source code</a>.
+          <a href="https://github.com/hbons/SparkleShare">source code</a>.
           You can also <a href="https://github.com/hbons/SparkleShare/issues">report problems</a>, <a href="http://www.transifex.net/projects/p/sparkleshare/">write translations</a>, 
           or <a href="https://github.com/hbons/SparkleShare/downloads">test development versions</a>.</p>
       </div>
