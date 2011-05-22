@@ -24,7 +24,7 @@
       <div class="tile ios">
         <div class="os">iOS</div>
       </div>
-      <div class="tile-big bottom-right-corner" style="float: right; margin-right: 7px;"> 
+      <div class="tile-big bottom-right-corner"> 
         <h1>get involved</h1>
           <p>SparkleShare is <a href="http://en.wikipedia.org/wiki/Free_software">Free</a> and <a href="http://en.wikipedia.org/wiki/Open-source_software">Open Source</a> software and is 
           <a href="https://github.com/hbons/SparkleShare/blob/master/AUTHORS">build by people</a> who care about privacy and freedom. Not only can you use it however you like, you are also 
