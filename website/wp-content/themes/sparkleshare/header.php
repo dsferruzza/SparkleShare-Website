@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head
+  <head>
     <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
     <meta name="generator" content="WordPress <?php bloginfo('version'); ?>" />
     <title>SparkleShare - Sharing work made easy <?php wp_title(' &raquo; '); ?></title>
@@ -10,17 +10,18 @@
     <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" />
     <link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/img/favicon.png" />
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-
-    <!-- Google Analytics -->
+    
+    <!-- Flattr -->
     <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-4494483-2']);
-      _gaq.push(['_trackPageview']);
+      /* <![CDATA[ */
       (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+          t.parentNode.insertBefore(s, t);
       })();
+      /* ]]> */
     </script>
 
     <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.js"></script>
@@ -45,10 +46,17 @@
           }
         })(jQuery)
         
-        jQuery.preLoadImages("slide-1.png", "<?php bloginfo('stylesheet_directory'); ?>/img/slide-1.png");
-        jQuery.preLoadImages("slide-2.png", "<?php bloginfo('stylesheet_directory'); ?>/img/slide-2.png");
-        jQuery.preLoadImages("slide-3.png", "<?php bloginfo('stylesheet_directory'); ?>/img/slide-3.png");
-        jQuery.preLoadImages("slide-4.png", "<?php bloginfo('stylesheet_directory'); ?>/img/slide-4.png");
+        if (navigator.userAgent.indexOf('Mac') < 0) {
+          jQuery.preLoadImages("slide-1.png", "<?php bloginfo('stylesheet_directory'); ?>/img/slide-1.png");
+          jQuery.preLoadImages("slide-2.png", "<?php bloginfo('stylesheet_directory'); ?>/img/slide-2.png");
+          jQuery.preLoadImages("slide-3.png", "<?php bloginfo('stylesheet_directory'); ?>/img/slide-3.png");
+          jQuery.preLoadImages("slide-4.png", "<?php bloginfo('stylesheet_directory'); ?>/img/slide-4.png");
+        } else {
+          jQuery.preLoadImages("slide-1.png", "<?php bloginfo('stylesheet_directory'); ?>/img/slide-1-mac.png");
+          jQuery.preLoadImages("slide-2.png", "<?php bloginfo('stylesheet_directory'); ?>/img/slide-2-mac.png");
+          jQuery.preLoadImages("slide-3.png", "<?php bloginfo('stylesheet_directory'); ?>/img/slide-3-mac.png");
+          jQuery.preLoadImages("slide-4.png", "<?php bloginfo('stylesheet_directory'); ?>/img/slide-4-mac.png");        
+        }
       
         var slide = 0;
         var texts = new Array("SparkleShare is a collaboration and sharing tool that is designed to keep things simple and to stay out of your way.", 
@@ -76,7 +84,11 @@
             slide = 0;
 
           $("#text").html(texts[slide]);
-          $("#graphic").html("<img src='<?php bloginfo('stylesheet_directory'); ?>/img/slide-" + (slide + 1) + ".png' />");
+          
+          if (navigator.userAgent.indexOf('Mac') < 0)
+            $("#graphic").html("<img src='<?php bloginfo('stylesheet_directory'); ?>/img/slide-" + (slide + 1) + ".png' />");
+          else
+            $("#graphic").html("<img src='<?php bloginfo('stylesheet_directory'); ?>/img/slide-" + (slide + 1) + "-mac.png' />");
         }
   
         function slideForward() {
@@ -170,7 +182,7 @@
           if (is_page('Help'))
             $is_help = true;
         ?>
-        <a href="<?php bloginfo('url'); ?>" <?php if (!$is_blog && !$is_help) echo "class=\"page-active\""; ?>">home</a>
+        <a href="<?php bloginfo('url'); ?>" <?php if (!$is_blog && !$is_help) echo "class=\"page-active\""; ?>>home</a>
         <a href="<?php bloginfo('url'); ?>/blog/"<?php if ($is_blog) echo "class=\"page-active\""; ?>>blog</a>
         <a href="<?php bloginfo('url'); ?>/help/"<?php if ($is_help) echo "class=\"page-active\""; ?>>help</a>
       </div>

@@ -17,7 +17,7 @@
     line-height: 20px;
     font-weight: lighter;
     color: #eee;
-    letter-spacing: -0.3px;
+    letter-spacing: -0.1px;
   }
 
   #copyright {
@@ -126,7 +126,7 @@
   }
 
   .android {
-    background-image: url('../img/android-inactive.png');
+    background-image: url('../img/android.png');
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -138,13 +138,13 @@
   }
 
   .mac {
-    background-image: url('../img/mac-inactive.png');
+    background-image: url('../img/mac.png');
     background-repeat: no-repeat;
     background-position: center;
   }
 
   .linux {
-    background-image: url('../img/linux-inactive.png');
+    background-image: url('../img/linux.png');
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -163,6 +163,12 @@
 
   .paypal {
     background-image: url('../img/paypal.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .bitcoin {
+    background-image: url('../img/bitcoin.png');
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -317,6 +323,12 @@
     color: #555753;
     font-weight: lighter;
   }
+  
+  div.page h3 {
+    font-size: 16px;
+    color: #555753;
+    font-weight: bold;
+  }
 
   div.answer a {
     color: #429dff;
@@ -387,3 +399,7 @@
     color: #fff;
   }
 
+  blockquote.wallet {
+    font-family: monospace;
+    font-size: 18px;
+  }
