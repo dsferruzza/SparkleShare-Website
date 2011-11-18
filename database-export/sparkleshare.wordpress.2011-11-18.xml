@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/3.1.2" created="2011-11-16 10:39" -->
+<!-- generator="WordPress/3.1.2" created="2011-11-18 14:28" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.1/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>SparkleShare</title>
 	<link>http://sparkleshare.org</link>
 	<description>Sharing work made easy</description>
-	<pubDate>Wed, 16 Nov 2011 10:39:34 +0000</pubDate>
+	<pubDate>Fri, 18 Nov 2011 14:28:30 +0000</pubDate>
 	<language>en</language>
 	<wp:wxr_version>1.1</wp:wxr_version>
 	<wp:base_site_url>http://sparkleshare.org</wp:base_site_url>
@@ -859,35 +859,26 @@ SparkleShare for Android can be found on the <a href="https://market.android.com
 		<guid isPermaLink="false">http://sparkleshare.org/?page_id=87</guid>
 		<description></description>
 		<content:encoded><![CDATA[<h3>The client side</h3>
-
-Start SparkleShare and enter your name and email address. Click <i>Continue</i>. SparkleShare has now created a special key file for you in <i>~/SparkleShare</i>. Copy its contents.
-&nbsp;
-
+Start SparkleShare and enter your name and email address. Click <em>Continue</em>. SparkleShare has now created a special key file for you in <em>~/SparkleShare</em>. Copy its contents.
 <h3>The server side</h3>
-
-Make sure you have <i>git</i> and <i>openssh-server</i> installed.
+Make sure you have <em>git</em> and <em>openssh-server</em> installed.
 Login to your server and perform the following commands or equivalent depending on your system:
-
-<blockquote>adduser &ndash;&ndash;disabled-password git
+<blockquote>adduser ––disabled-password git
 cd /home/git
-git init &ndash;&ndash;bare MyProject
+git init ––bare MyProject
 mkdir .ssh
-vi .ssh/authorized_keys
-</blockquote>
+vi .ssh/authorized_keys</blockquote>
+Press <em>i</em> to go to edit mode. Paste the text that you previously copied at <em>The client side</em> step. Press <em>ESC</em>, type <em>:x!</em> and hit the <em>Enter</em> key to save the file. If you want to give more people access to your project, just paste their keys on a new line in this file.
 
-Press <i>i</i> to go to edit mode. Paste the text that you previously copied at <i>The client side</i> step. Press <i>ESC</i>, type <i>:x!</i> and hit the <i>Enter</i> key to save the file. If you want to give more people access to your project, just paste their keys on a new line in this file.
-&nbsp;
 Finally:
-
-<blockquote>chown -R git .</blockquote>
-
-We've chosen to use the username <i>git</i> here because the client assumes this name. If you need to use a different username you can do so, just tell the client (in the next step) by prefixing <i>user@</i> to the server address.
-&nbsp;
-
+<blockquote>
+chmod 700 .ssh
+chmod 600 .ssh/authorized_keys
+chown -R git .</blockquote>
+We've chosen to use the username <em>git</em> here because the client assumes this name. If you need to use a different username you can do so, just tell the client (in the next step) by prefixing <em>user@</em> to the server address.
 <h3>Back to the client</h3>
+Click the SparkleShare status icon and select "Add Hosted Project". Select "On my own server", enter your server address in the <em>Address</em> field and "/home/git/MyProject" in the <em>Remote Path</em> field. Click <em>Add</em>.
 
-Click the SparkleShare status icon and select "Add Hosted Project". Select "On my own server", enter your server address in the <i>Address</i> field and "/home/git/MyProject" in the <i>Remote Path</i> field. Click <i>Add</i>.
-&nbsp;
 SparkleShare is now linked to your server!]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>87</wp:post_id>
