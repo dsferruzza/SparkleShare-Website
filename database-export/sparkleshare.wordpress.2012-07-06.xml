@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/3.1.2" created="2011-11-18 14:28" -->
+<!-- generator="WordPress/3.1.2" created="2012-07-06 17:16" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.1/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>SparkleShare</title>
 	<link>http://sparkleshare.org</link>
 	<description>Sharing work made easy</description>
-	<pubDate>Fri, 18 Nov 2011 14:28:30 +0000</pubDate>
+	<pubDate>Fri, 06 Jul 2012 17:16:59 +0000</pubDate>
 	<language>en</language>
 	<wp:wxr_version>1.1</wp:wxr_version>
 	<wp:base_site_url>http://sparkleshare.org</wp:base_site_url>
@@ -138,6 +138,20 @@ Hi, I think your website might be having browser compatibility issues. When I lo
 			<wp:comment_date>2011-11-02 15:27:54</wp:comment_date>
 			<wp:comment_date_gmt>2011-11-02 15:27:54</wp:comment_date_gmt>
 			<wp:comment_content><![CDATA[[...] &#8211; Sharing work made easy » Blog  Posted on 2011/11/02  by  mschinz    SparkleShare &#8211; Sharing work made easy » Blog.    This entry was posted in Blogs by mschinz. Bookmark the [...] ]]></wp:comment_content>
+			<wp:comment_approved>0</wp:comment_approved>
+			<wp:comment_type>pingback</wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>16</wp:comment_id>
+			<wp:comment_author><![CDATA[Linking and Sync any Application in Unix or Linux | Chris Jones]]></wp:comment_author>
+			<wp:comment_author_email></wp:comment_author_email>
+			<wp:comment_author_url>http://seechrisblog.com/2012/06/04/linking-and-sync-any-application-in-unix-or-linux/</wp:comment_author_url>
+			<wp:comment_author_IP>74.208.16.108</wp:comment_author_IP>
+			<wp:comment_date>2012-06-04 22:52:13</wp:comment_date>
+			<wp:comment_date_gmt>2012-06-04 22:52:13</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[[...] any Unix or Linux applications&#8217; settings and data across multiple computers using Dropbox, SparkleShare, or other alternative and a little [...] ]]></wp:comment_content>
 			<wp:comment_approved>0</wp:comment_approved>
 			<wp:comment_type>pingback</wp:comment_type>
 			<wp:comment_parent>0</wp:comment_parent>
@@ -292,7 +306,7 @@ Hi, I think your website might be having browser compatibility issues. When I lo
 
 					<p><span class="keyword">Right click</span> the affected file. There will be a menu entry called <span class="keyword">Get Earlier Version</span>. From there
 					you can select an earlier version of the file you want to check out. SparkleShare will create a copy of
-					this file in the same folder.</p>
+					this file in the same folder. This only works on Linux using Nautilus as the file browser for the time being.</p>
 
 					</div>
 				<span href="#6" class="section">Adding collaborators</span>
@@ -449,6 +463,48 @@ Hi, I think your website might be having browser compatibility issues. When I lo
 			<wp:comment_parent>0</wp:comment_parent>
 			<wp:comment_user_id>0</wp:comment_user_id>
 		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>12</wp:comment_id>
+			<wp:comment_author><![CDATA[sparkleshare &#8211; Para crear un clon de Dropbox en tu propio servidor]]></wp:comment_author>
+			<wp:comment_author_email></wp:comment_author_email>
+			<wp:comment_author_url>http://wwwhatsnew.com/2011/12/07/sparkleshare-para-crear-un-clon-de-dropbox-en-tu-propio-servidor/</wp:comment_author_url>
+			<wp:comment_author_IP>92.43.20.124</wp:comment_author_IP>
+			<wp:comment_date>2011-12-07 19:02:20</wp:comment_date>
+			<wp:comment_date_gmt>2011-12-07 19:02:20</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[[...] código del proyecto se encuentra en Github, teniendo una amplia documentación  e instrucciones para su [...] ]]></wp:comment_content>
+			<wp:comment_approved>0</wp:comment_approved>
+			<wp:comment_type>pingback</wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>13</wp:comment_id>
+			<wp:comment_author><![CDATA[sparkleshare – Para crear un clon de Dropbox en tu propio servidor &laquo; Brain Hardware, Blog sobre Tecnologia y Empresas]]></wp:comment_author>
+			<wp:comment_author_email></wp:comment_author_email>
+			<wp:comment_author_url>http://brainhardware.wordpress.com/2011/12/07/sparkleshare-para-crear-un-clon-de-dropbox-en-tu-propio-servidor/</wp:comment_author_url>
+			<wp:comment_author_IP>216.151.210.28</wp:comment_author_IP>
+			<wp:comment_date>2011-12-07 22:32:17</wp:comment_date>
+			<wp:comment_date_gmt>2011-12-07 22:32:17</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[[...] código del proyecto se encuentra en Github, teniendo una amplia documentación e instrucciones para su [...] ]]></wp:comment_content>
+			<wp:comment_approved>0</wp:comment_approved>
+			<wp:comment_type>pingback</wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>14</wp:comment_id>
+			<wp:comment_author><![CDATA[No soy un guru - sparkleshare, Montate tu propio Dropbox]]></wp:comment_author>
+			<wp:comment_author_email></wp:comment_author_email>
+			<wp:comment_author_url>http://nosoyunguru.com/?p=229</wp:comment_author_url>
+			<wp:comment_author_IP>188.121.41.45</wp:comment_author_IP>
+			<wp:comment_date>2012-02-21 16:26:36</wp:comment_date>
+			<wp:comment_date_gmt>2012-02-21 16:26:36</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[[...] código del proyecto se encuentra en Github, teniendo una amplia documentación e instrucciones para su [...] ]]></wp:comment_content>
+			<wp:comment_approved>0</wp:comment_approved>
+			<wp:comment_type>pingback</wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
 	</item>
 	<item>
 		<title>SparkleShare 0.2 RC1 for Linux and Mac</title>
@@ -498,7 +554,7 @@ A more detailed list of changes, and roadmap, can be found on the <a href="https
 <h3>Bitcoin</h3>
 
 If you have some <a href="http://www.weusecoins.com/">bitcoins</a> left to donate, you can throw them into this hat:
-<blockquote class="wallet">1GNLWUF5Y9GHJ4ymfF3JBJHAXveqDHTK8h</blockquote>
+<blockquote class="wallet"> </blockquote>
 
 &nbsp;
 
@@ -561,6 +617,20 @@ Much appreciated!]]></content:encoded>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>15</wp:comment_id>
+			<wp:comment_author><![CDATA[Linux: Sparkleshare als DropBox Alternative | .: o-o-s.de :.]]></wp:comment_author>
+			<wp:comment_author_email></wp:comment_author_email>
+			<wp:comment_author_url>http://o-o-s.de/2012-04-29/linux-sparkleshare-als-dropbox-alternative</wp:comment_author_url>
+			<wp:comment_author_IP>2001:4dd0:fd85::4</wp:comment_author_IP>
+			<wp:comment_date>2012-04-29 20:08:28</wp:comment_date>
+			<wp:comment_date_gmt>2012-04-29 20:08:28</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[[...] http://sparkleshare.org/support-us/ [...] ]]></wp:comment_content>
+			<wp:comment_approved>0</wp:comment_approved>
+			<wp:comment_type>pingback</wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
 	</item>
 	<item>
 		<title>Releasing SparkleShare 0.2!</title>
@@ -686,10 +756,7 @@ Now have fun and create cool stuff!]]></content:encoded>
 
 <h3>Fedora</h3>
 
-Alex Hudson is maintaining a repository with up to date packages for Fedora 13, 14, and 15. Here's how you install it:
-<blockquote>$ sudo curl -o /etc/yum.repos.d/sparkleshare.repo http://repos.fedorapeople.org/repos/alexh/sparkleshare/fedora-sparkleshare.repo
-
-$ sudo yum install sparkleshare</blockquote>
+Official Fedora builds can be found <a href="https://admin.fedoraproject.org/updates/sparkleshare">here</a>.
 
 &nbsp;
 
@@ -703,11 +770,7 @@ Official Ubuntu builds can be found in <a href="https://launchpad.net/ubuntu/+so
 
 Get the source code <a href="https://github.com/hbons/SparkleShare/downloads">here</a>.
 
-Compiling and installing from source is pretty straigtforward. The README has a list of dependencies and instructions on how to install them with one command on the most popular distros. After that it's a matter of:
-
-<blockquote>$ ./configure &ndash;&ndash;prefix=/usr
-$ make
-$ sudo make install</blockquote>]]></content:encoded>
+Compiling and installing from source is pretty straightforward. The README has a list of dependencies and instructions on how to install them with one command on the most popular distros.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>64</wp:post_id>
 		<wp:post_date>2011-06-14 19:25:33</wp:post_date>
@@ -755,9 +818,7 @@ $ sudo make install</blockquote>]]></content:encoded>
 		<description></description>
 		<content:encoded><![CDATA[&nbsp;
 <h3>Snow Leopard &amp; Lion</h3>
-The latest bundle can be found <a href="https://github.com/hbons/SparkleShare/downloads">here</a>.
-
-You will also need a version of <a href="http://code.google.com/p/git-osx-installer/downloads/list">Git</a> for the time being.]]></content:encoded>
+The latest bundle can be found <a href="https://github.com/hbons/SparkleShare/downloads">on Github</a> under <em>Download Packages</em>.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>73</wp:post_id>
 		<wp:post_date>2011-09-11 15:18:15</wp:post_date>
@@ -823,7 +884,7 @@ SparkleShare for Android can be found on the <a href="https://market.android.com
 		<wp:comment_status>closed</wp:comment_status>
 		<wp:ping_status>closed</wp:ping_status>
 		<wp:post_name>first-sparkleshare-release-for-android</wp:post_name>
-		<wp:status>publish</wp:status>
+		<wp:status>trash</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type>post</wp:post_type>
@@ -850,6 +911,14 @@ SparkleShare for Android can be found on the <a href="https://market.android.com
 			<wp:meta_key>_disable_convert_smilies</wp:meta_key>
 			<wp:meta_value><![CDATA[0]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_status</wp:meta_key>
+			<wp:meta_value><![CDATA[private]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_time</wp:meta_key>
+			<wp:meta_value><![CDATA[1339514767]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Set up a host</title>
@@ -860,22 +929,33 @@ SparkleShare for Android can be found on the <a href="https://market.android.com
 		<description></description>
 		<content:encoded><![CDATA[<h3>The client side</h3>
 Start SparkleShare and enter your name and email address. Click <em>Continue</em>. SparkleShare has now created a special key file for you in <em>~/SparkleShare</em>. Copy its contents.
+<br>
 <h3>The server side</h3>
 Make sure you have <em>git</em> and <em>openssh-server</em> installed.
 Login to your server and perform the following commands or equivalent depending on your system:
-<blockquote>adduser ––disabled-password git
-cd /home/git
-git init ––bare MyProject
-mkdir .ssh
-vi .ssh/authorized_keys</blockquote>
-Press <em>i</em> to go to edit mode. Paste the text that you previously copied at <em>The client side</em> step. Press <em>ESC</em>, type <em>:x!</em> and hit the <em>Enter</em> key to save the file. If you want to give more people access to your project, just paste their keys on a new line in this file.
+<blockquote>sudo adduser ––disabled-password git
+sudo git init ––bare /home/git/MyProject
+sudo mkdir /home/git/.ssh
+sudo touch /home/git/.ssh/authorized_keys</blockquote>
+
+Please note that SparkleShare doesn't accept any folder names with periods (".") in them.
+
+Open <em>/home/git/.ssh/authorized_keys</em> in a text editor and paste the key that you previously copied at <em>The client side</em> step on a new line at the end of the file. This gives the client access to the git repository. If you want to give more people access to your project, just paste their keys on a new line at the end of this file.
 
 Finally:
 <blockquote>
-chmod 700 .ssh
-chmod 600 .ssh/authorized_keys
-chown -R git .</blockquote>
+sudo chmod 700 /home/git/.ssh
+sudo chmod 600 /home/git/.ssh/authorized_keys
+sudo chown -R git:git /home/git</blockquote>
+
+On a Mac server, also add the directory containing the git binary to your PATH:
+<blockquote>
+echo 'export PATH=$PATH:/path/to/git/bin' >> /home/git/.bashrc
+echo 'export PATH=$PATH:/path/to/git/bin' >> /home/git/.profile
+</blockquote>
+
 We've chosen to use the username <em>git</em> here because the client assumes this name. If you need to use a different username you can do so, just tell the client (in the next step) by prefixing <em>user@</em> to the server address.
+<br>
 <h3>Back to the client</h3>
 Click the SparkleShare status icon and select "Add Hosted Project". Select "On my own server", enter your server address in the <em>Address</em> field and "/home/git/MyProject" in the <em>Remote Path</em> field. Click <em>Add</em>.
 
@@ -887,6 +967,178 @@ SparkleShare is now linked to your server!]]></content:encoded>
 		<wp:comment_status>closed</wp:comment_status>
 		<wp:ping_status>closed</wp:ping_status>
 		<wp:post_name>set-up-a-host</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_disable_wpautop</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_disable_wptexturize</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_disable_convert_chars</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_disable_convert_smilies</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>FAQ</title>
+		<link>http://sparkleshare.org/faq/</link>
+		<pubDate>Fri, 10 Feb 2012 16:52:38 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://sparkleshare.org/?page_id=118</guid>
+		<description></description>
+		<content:encoded><![CDATA[Here are some frequently asked questions. If your question isn't covered here feel free to join our <em>IRC channel</em> (<em>#sparkleshare</em> on <em>irc.gnome.org</em>) for help.
+<br>
+<h3>Why am I asked for my email adress upon setting up SparkleShare?</h3>
+This is solely to mark your changes in the event log (and fetch your <em>Gravatar</em> from <em>gravatar.com</em>) so others using the share can identify you.
+<br>
+<h3>Why is my folder bigger than the total size of my files inside it?</h3>
+SparkleShare keeps a history of all your files, which requires the use of extra space.
+<br>
+<h3>How can I delete history?</h3>
+You can't at the moment. We're looking into solving this issue by perhaps using a other backend than Git.
+<br>
+<h3>How do I remove a project?</h3>
+Simply remove the folder from the SparkleShare folder.
+<br>
+<h3>Something went wrong, how can I figure out what?</h3>
+Usually this has to do with the address being wrong or your key not having been uploaded.
+If you are sure this is correct you can look at the debug look in ~/.config/sparkleshare and/or ask the IRC channel (#sparkleshare on irc.gnome.org) for help.
+<br>
+<h3>Can I use symlinks with SparkleShare?</h3>
+SparkleShare sees symlinks as if they were regular files. So putting a symlink inside one of your SparkleShare folders pointing to a different folder on your drive won't give you the expected result. However, you can create a symlink elsewhere on your drive to point inside one of your SparkleShare folders for the same effect.
+<br>
+<h3>How do I use a port other than the default 22?</h3>
+In the "Add Hosted Project" dialog, simply append the port number to the server address. For example, if your server is <em>sparkleshare.org</em> and you want to use port <em>42</em>, simply type <em>sparkleshare.org:42</em>.
+<br>
+<h3>Is it possible to run the SparkleShare client in a non-graphical way?</h3>
+No, you can't.
+<br>
+<h3>Will there be support for other synchronization methods other than Git? Like FTP/WebDAV/RSync/... ?</h3>
+No, but you can create a backend using one of these methods (or let someone do it for you). See the wiki on how to go about this.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>118</wp:post_id>
+		<wp:post_date>2012-02-10 16:52:38</wp:post_date>
+		<wp:post_date_gmt>2012-02-10 16:52:38</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>faq</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_disable_wpautop</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_disable_wptexturize</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_disable_convert_chars</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_disable_convert_smilies</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Android</title>
+		<link>http://sparkleshare.org/android/</link>
+		<pubDate>Sat, 11 Feb 2012 22:04:15 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://sparkleshare.org/?page_id=124</guid>
+		<description></description>
+		<content:encoded><![CDATA[SparkleShare for Android allows you to browse the files you have on your server running the <a href="https://github.com/hbons/SparkleShare-Dashboard">SparkleShare Dashboard</a>. Linking your Android device is a matter of scanning a QR code. It is available from the <a href="https://market.android.com/details?id=org.sparkleshare.android">Android Market</a>.
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>124</wp:post_id>
+		<wp:post_date>2012-02-11 22:04:15</wp:post_date>
+		<wp:post_date_gmt>2012-02-11 22:04:15</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>android</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_disable_wpautop</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_disable_wptexturize</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_disable_convert_chars</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_disable_convert_smilies</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Windows Downloads</title>
+		<link>http://sparkleshare.org/windows-downloads/</link>
+		<pubDate>Sun, 11 Mar 2012 23:56:27 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://sparkleshare.org/?page_id=135</guid>
+		<description></description>
+		<content:encoded><![CDATA[&nbsp;
+<h3>Windows 7 and Windows Vista</h3>
+The latest MSI installer can be found <a href="https://github.com/hbons/SparkleShare/downloads">on Github</a> under <em>Download Packages</em>.
+<br>
+<h3>Windows XP</h3>
+SparkleShare on Windows XP isn't supported.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>135</wp:post_id>
+		<wp:post_date>2012-03-11 23:56:27</wp:post_date>
+		<wp:post_date_gmt>2012-03-11 23:56:27</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>windows-downloads</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>

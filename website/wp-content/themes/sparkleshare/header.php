@@ -28,6 +28,9 @@
     <script>
       // Consider all the following javascript code as public domain, do whatever you like with it.
       $(document).ready(function() {
+        $('.wallet').html("1GNL" + "WUF5" + "Y9GHJ4" + "ymf" + "F3JBJHAX");
+        $('.wallet').html($('.wallet').html() + "veq" + "DHTK8" + "h");
+
         $('.question').click(function () {
           $(this).next(".answer").slideToggle('fast');
           return false;
@@ -179,11 +182,11 @@
         <?php
           if (is_page('Blog'))
             $is_blog = true;
-          if (is_page('Help'))
+          if (is_page('Support us'))
             $is_help = true;
         ?>
         <a href="<?php bloginfo('url'); ?>" <?php if (!$is_blog && !$is_help) echo "class=\"page-active\""; ?>>home</a>
         <a href="<?php bloginfo('url'); ?>/blog/"<?php if ($is_blog) echo "class=\"page-active\""; ?>>blog</a>
-        <a href="<?php bloginfo('url'); ?>/help/"<?php if ($is_help) echo "class=\"page-active\""; ?>>help</a>
+        <a href="<?php bloginfo('url'); ?>/support-us/"<?php if ($is_help) echo "class=\"page-active\""; ?>>donate</a>
       </div>
     </div>

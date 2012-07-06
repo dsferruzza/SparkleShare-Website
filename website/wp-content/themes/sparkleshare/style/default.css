@@ -132,7 +132,7 @@
   }
 
   .windows {
-    background-image: url('../img/windows-inactive.png');
+    background-image: url('../img/windows.png');
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -251,8 +251,6 @@
 
   div.bottom-right-corner {
     border-radius: 0 0 7px 0;
-    float: right;
-    margin-right: 7px;
   }
 
   div.navigation-back {
