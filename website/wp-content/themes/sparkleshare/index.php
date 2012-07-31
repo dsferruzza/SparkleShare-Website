@@ -22,8 +22,8 @@
       <div class="tile-big bottom-right-corner" style="float: right; margin-right: 7px;"> 
         <h1>get involved</h1>
           <p>SparkleShare is <a href="http://en.wikipedia.org/wiki/Free_software">Free</a> and <a href="http://en.wikipedia.org/wiki/Open-source_software">Open Source</a> software and is 
-          <a href="https://github.com/hbons/SparkleShare/blob/master/AUTHORS">built by people</a> who care about privacy and freedom. Not only can you use it however you like, you are also 
-          free to modify and redistribute it when you give the recipients the <a href="https://github.com/hbons/SparkleShare/blob/master/LICENSE">same freedoms</a>.</p>
+          <a href="https://github.com/hbons/SparkleShare/blob/master/legal/AUTHORS.txt">built by people</a> who care about privacy and freedom. Not only can you use it however you like, you are also 
+          free to modify and redistribute it when you give the recipients the <a href="https://github.com/hbons/SparkleShare/blob/master/legal/LICENSE.txt">same freedoms</a>.</p>
 
           <p>If you'd like to help out: check out the <a href="https://github.com/hbons/SparkleShare/wiki">wiki</a> on <a href="https://github.com/hbons/SparkleShare/wiki/Contributing">how to contribute</a>, and get the            <a href="https://github.com/hbons/SparkleShare">source code</a>.
           You can also <a href="https://github.com/hbons/SparkleShare/issues">report problems</a>, <a href="http://www.transifex.net/projects/p/sparkleshare/">write translations</a>, 
